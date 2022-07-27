@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document id="root_doc">
+		<Schema name="高速公路3公里長3車道寬" id="高速公路3公里長3車道寬">
+			<SimpleField name="ogc_fid" type="int"></SimpleField>
+			<SimpleField name="id" type="float"></SimpleField>
+			<SimpleField name="單元編號" type="float"></SimpleField>
+			<SimpleField name="行政區" type="string"></SimpleField>
+			<SimpleField name="道路名稱" type="string"></SimpleField>
+			<SimpleField name="交叉道路" type="string"></SimpleField>
+			<SimpleField name="起始道路" type="string"></SimpleField>
+			<SimpleField name="結束道路" type="string"></SimpleField>
+			<SimpleField name="計劃道路寬" type="float"></SimpleField>
+			<SimpleField name="實際路寬" type="float"></SimpleField>
+			<SimpleField name="區段長度" type="float"></SimpleField>
+			<SimpleField name="道路面積" type="string"></SimpleField>
+			<SimpleField name="扣除路段" type="string"></SimpleField>
+			<SimpleField name="最後銑鋪日" type="string"></SimpleField>
+			<SimpleField name="圖面經緯度" type="string"></SimpleField>
+			<SimpleField name="geo_wkt" type="string"></SimpleField>
+			<SimpleField name="parsergeo" type="float"></SimpleField>
+			<SimpleField name="圖面經緯度txt" type="string"></SimpleField>
+			<SimpleField name="pci_id" type="string"></SimpleField>
+			<SimpleField name="pci_路段" type="string"></SimpleField>
+			<SimpleField name="did" type="float"></SimpleField>
+			<SimpleField name="更新日期" type="string"></SimpleField>
+			<SimpleField name="區塊排序" type="string"></SimpleField>
+			<SimpleField name="南北註記" type="string"></SimpleField>
+			<SimpleField name="updatetime" type="string"></SimpleField>
+		</Schema>
+		<Folder>
+			<name>高速公路3公里長3車道寬</name>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#高速公路3公里長3車道寬">
+						<SimpleData name="ogc_fid">4646</SimpleData>
+						<SimpleData name="行政區">大同區</SimpleData>
+						<SimpleData name="道路名稱">高速公路測試</SimpleData>
+						<SimpleData name="更新日期">2022/07/08</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>121.518050567998,25.077458928356 121.518031290991,25.0773606156191 121.517520932224,25.0774561974466 121.516503266885,25.0776339475174 121.515830820616,25.0777451115924 121.515114760119,25.0778446291421 121.515130181725,25.0779516165322 121.51593435421,25.0778279224026 121.516695795994,25.0776986058124 121.518050567998,25.077458928356</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>
