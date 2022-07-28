@@ -214,7 +214,7 @@
         <Icon>
           <href>http://taipeinw.bim-group.com/images/google_icon/360B.png</href>
         </Icon>
-        <hotSpot x="8" y="1" xunits="pixels" yunits="pixels"/>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
       </IconStyle>
       <ListStyle>
         <ItemIcon>

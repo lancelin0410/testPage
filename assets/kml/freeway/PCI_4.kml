@@ -1105,79 +1105,33 @@
       </Pair>
     </StyleMap>
     <Folder>
-      <name>PCI案件共8件</name>
-      <visibility>1</visibility>
       <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.176009582543,24.9289247079334,0</coordinates>
-        </Point>
+        <TimeSpan>
+          <begin>0</begin>
+          <end>100</end>
+        </TimeSpan>
+        <name>ID：105，地點：國1南下外線65.3公里，面積：360㎡，PCI程度：尚可，PCI分數：67</name>
+        <styleUrl>#failed5</styleUrl>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>121.18762994917637,24.934300442052646,0 121.18728493058113,24.93405065682994,0 121.18684324937966,24.93375538556613,0 121.18682389238656,24.933784687436436,0 121.18695617705028,24.933871293977948,0 121.18715742650163,24.934005018942347,0 121.18727266829274,24.934085359841752,0 121.18748988529929,24.934238494786136,0 121.18761006534424,24.93432576350417,0 121.18762994917637,24.934300442052646</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
       </Placemark>
       <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.192274745853,24.9389264183752,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.195752907371,24.9490726891344,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.196492389624,24.9521046823303,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.195486909901,24.9493791705344,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.181848531352,24.9315321513238,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.186655527622,24.9337199911592,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <visibility>1</visibility>
-        <open>1</open>
-        <description><![CDATA[<table border=1 width="410"><tr><td align="left" colspan="2"><font size=5>種類：號誌</font></td></tr></table>]]></description>
-        <styleUrl>#msn_blu-blank</styleUrl>
-        <Point>
-          <coordinates>121.198527580518,24.9557100885846,0</coordinates>
-        </Point>
+        <name>ID：107，地點：國1南下外線65.1公里，面積：375㎡，PCI程度：尚可，PCI分數：65</name>
+        <styleUrl>#failed5</styleUrl>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>121.18910516507101,24.935501141736776,0 121.1890407217453,24.935441378439275,0 121.18868698013908,24.935132173294292,0 121.18838533760567,24.934884113694512,0 121.18836360087649,24.93490895567071,0 121.18854938422011,24.935063140893327,0 121.18874766789006,24.93523086642293,0 121.18888197541858,24.9353500802427,0 121.18907863411597,24.93552657401377,0 121.18910516507101,24.935501141736776</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
       </Placemark>
     </Folder>
   </Document>
