@@ -1,0 +1,66 @@
+{
+	"layerList": {
+		"PCI": {
+			"type": "PCI",
+			"assetsUrl": "${WebUrl}assets/kml/freeway/PCI_${level}.kml",
+			"name": "鋪面",
+			"description": "鋪面狀況",
+			"icon": "mdi-road-variant",
+			"color": "#AA9FB1"
+		},
+		"delineator": {
+			"type": "default",
+			"assetsUrl": "${WebUrl}assets/kml/freeway/delineator.kml",
+			"name": "反光導標",
+			"description": "反光導標",
+			"icon": "mdi-traffic-cone",
+			"color": "#7871AA"
+		},
+		"signal": {
+			"type": "default",
+			"assetsUrl": "${WebUrl}assets/kml/freeway/signal.kml",
+			"name": "號誌",
+			"description": "號誌",
+			"icon": "mdi-railroad-light",
+			"color": "#4E5283"
+		},
+		"mark": {
+			"type": "default",
+			"assetsUrl": "${WebUrl}assets/kml/freeway/mark.kml",
+			"name": "標誌",
+			"description": "標誌",
+			"icon": "mdi-marker",
+			"color": "#4E5283"
+		},
+		"panorama": {
+			"type": "panorama",
+			"assetsUrl": "https://storage.googleapis.com/demo-freeway20200701",
+			"name": "街景",
+			"description": "街景",
+			"icon": "mdi-eye-arrow-left",
+			"color": "#CCA7A2",
+			"streetViewJSON": {
+				"freeway": "/assets/panorama/freeway/streetView.json"
+			},
+			"sceneSetting": {
+				"hfov": 150,
+				"horizonRoll": 0,
+				"pitch": -5,
+				"yaw": 180
+			}
+		}
+	},
+	"districtList": {
+		"freeway": {
+			"name": "高速公路",
+			"engName": "Freeway",
+			"color": "#e2a1ff",
+			"img_L": "freeway_L.png",
+			"img_S": "freeway_S.png",
+			"position": {
+				"lat": 24.914742,
+				"lng": 121.154815
+			}
+		}
+	}
+}
