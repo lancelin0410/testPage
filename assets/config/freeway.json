@@ -40,7 +40,7 @@
 			"icon": "mdi-eye-arrow-left",
 			"color": "#CCA7A2",
 			"streetViewJSON": {
-				"freeway": "/assets/panorama/freeway/streetView.json"
+				"freeway": "${publicPath}assets/panorama/freeway/streetView.json"
 			},
 			"sceneSetting": {
 				"hfov": 150,

@@ -32,8 +32,8 @@
 			"icon": "mdi-eye-arrow-left",
 			"color": "#CCA7A2",
 			"streetViewJSON": {
-				"7": "/assets/panorama/7/streetView.json",
-				"8": "/assets/panorama/8/streetView.json"
+				"7": "${publicPath}assets/panorama/7/streetView.json",
+				"8": "${publicPath}assets/panorama/8/streetView.json"
 			},
 			"sceneSetting": {
 				"hfov": 150,
