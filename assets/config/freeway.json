@@ -62,5 +62,43 @@
 				"lng": 121.154815
 			}
 		}
+	},
+	"PCIInfo": {
+		"headers": [
+			{
+				"text": "序號",
+				"align": "center",
+				"value": "order",
+				"width": "10%"
+			},
+			{
+				"text": "位置",
+				"align": "center",
+				"value": "place",
+				"width": "60%"
+			},
+			{
+				"text": "面積",
+				"align": "center",
+				"value": "area",
+				"width": "10%"
+			},
+			{
+				"text": "PCI",
+				"align": "center",
+				"value": "score",
+				"width": "10%"
+			},
+			{
+				"text": "操作",
+				"align": "center",
+				"sortable": false,
+				"value": "actions",
+				"width": "10%"
+			}
+		],
+		"regex": {
+			"default": "ID：(\\d*)，地點：(.*)，面積：(\\d*)㎡，.*?，PCI分數：(\\d*\\.?\\d+)"
+		}
 	}
 }

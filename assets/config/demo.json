@@ -193,5 +193,56 @@
 				"lng": 121.557762
 			}
 		}
+	},
+	"PCIInfo": {
+		"headers": [
+			{
+				"text": "序號",
+				"align": "center",
+				"value": "order",
+				"width": "10%"
+			},
+			{
+				"text": "編號",
+				"align": "center",
+				"value": "id",
+				"width": "10%"
+			},
+			{
+				"text": "區塊路名",
+				"align": "center",
+				"value": "block",
+				"width": "20%"
+			},
+			{
+				"text": "面積",
+				"align": "center",
+				"value": "area",
+				"width": "5%"
+			},
+			{
+				"text": "位置",
+				"align": "center",
+				"value": "place",
+				"width": "20%"
+			},
+			{
+				"text": "PCI",
+				"align": "center",
+				"value": "score",
+				"width": "25%"
+			},
+			{
+				"text": "操作",
+				"align": "center",
+				"sortable": false,
+				"value": "actions",
+				"width": "10%"
+			}
+		],
+		"regex": {
+			"default": "ID：(\\d*)，區塊編號：(\\d+)，地點：(.*)，面積：(\\d*)㎡，道路編號：(.*)，PCI統計日期：.*?，PCI分數：(\\d*\\.?\\d+)",
+			"changed": "ID：(\\d*)，區塊編號：(\\d+)，地點：(.*)，面積：(\\d*)㎡，道路編號：(.*)，上月PCI：(\\d*\\.?\\d+)，本月PCI：(\\d*\\.?\\d+)"
+		}
 	}
 }
