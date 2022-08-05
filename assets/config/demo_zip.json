@@ -130,8 +130,8 @@
 			"color": "#CCA7A2",
 			"options": {
 				"streetViewJSON": {
-					"7": "${publicPath}assets/panorama/7/streetView.json",
-					"8": "${publicPath}assets/panorama/8/streetView.json"
+					"114": "${publicPath}assets/panorama/7/streetView.json",
+					"116": "${publicPath}assets/panorama/8/streetView.json"
 				},
 				"sceneSetting": {
 					"hfov": 150,
@@ -143,7 +143,7 @@
 		}
 	},
 	"districtList": {
-		"0": {
+		"1": {
 			"name": "台北市",
 			"engName": "Taipei City",
 			"color": "#e2a1ff",
@@ -154,19 +154,18 @@
 				"lng": 121.5647688
 			}
 		},
-		"1": {
-			"name": "中山區",
-			"engName": "Zhongshan",
-			"color": "#668856",
-			"dteam": 1,
-			"img_L": "dist-ll-01.png",
-			"img_S": "dist-rs-01.png",
+		"100": {
+			"name": "中正區",
+			"engName": "Zhongzheng",
+			"color": "#f4dc48",
+			"img_L": "dist-ll-05.png",
+			"img_S": "dist-rs-05.png",
 			"position": {
-				"lat": 25.0685406,
-				"lng": 121.5280918
+				"lat": 25.0293387,
+				"lng": 121.5030737
 			}
 		},
-		"2": {
+		"103": {
 			"name": "大同區",
 			"engName": "Datong",
 			"color": "#8a4797",
@@ -178,7 +177,19 @@
 				"lng": 121.5045601
 			}
 		},
-		"3": {
+		"104": {
+			"name": "中山區",
+			"engName": "Zhongshan",
+			"color": "#668856",
+			"dteam": 1,
+			"img_L": "dist-ll-01.png",
+			"img_S": "dist-rs-01.png",
+			"position": {
+				"lat": 25.0685406,
+				"lng": 121.5280918
+			}
+		},
+		"105": {
 			"name": "松山區",
 			"engName": "Songshan",
 			"color": "#8bc668",
@@ -190,7 +201,29 @@
 				"lng": 121.5505525
 			}
 		},
-		"4": {
+		"106": {
+			"name": "大安區",
+			"engName": "Da’an",
+			"color": "#62c0b0",
+			"img_L": "dist-ll-11.png",
+			"img_S": "dist-rs-11.png",
+			"position": {
+				"lat": 25.0263453,
+				"lng": 121.5263364
+			}
+		},
+		"108": {
+			"name": "萬華區",
+			"engName": "Wanhua",
+			"color": "#f0872b",
+			"img_L": "dist-ll-06.png",
+			"img_S": "dist-rs-06.png",
+			"position": {
+				"lat": 25.0295314,
+				"lng": 121.4803743
+			}
+		},
+		"110": {
 			"name": "信義區",
 			"engName": "Xinyi",
 			"color": "#ea5761",
@@ -202,51 +235,7 @@
 				"lng": 121.5548065
 			}
 		},
-		"5": {
-			"name": "中正區",
-			"engName": "Zhongzheng",
-			"color": "#f4dc48",
-			"img_L": "dist-ll-05.png",
-			"img_S": "dist-rs-05.png",
-			"position": {
-				"lat": 25.0293387,
-				"lng": 121.5030737
-			}
-		},
-		"6": {
-			"name": "萬華區",
-			"engName": "Wanhua",
-			"color": "#f0872b",
-			"img_L": "dist-ll-06.png",
-			"img_S": "dist-rs-06.png",
-			"position": {
-				"lat": 25.0295314,
-				"lng": 121.4803743
-			}
-		},
-		"7": {
-			"name": "內湖區",
-			"engName": "Neihu",
-			"color": "#e54219",
-			"img_L": "dist-ll-07.png",
-			"img_S": "dist-rs-07.png",
-			"position": {
-				"lat": 25.0835395,
-				"lng": 121.5728658
-			}
-		},
-		"8": {
-			"name": "南港區",
-			"engName": "Nangang",
-			"color": "#503f86",
-			"img_L": "dist-ll-08.png",
-			"img_S": "dist-rs-08.png",
-			"position": {
-				"lat": 25.0384298,
-				"lng": 121.6044784
-			}
-		},
-		"9": {
+		"111": {
 			"name": "士林區",
 			"engName": "Shilin",
 			"color": "#375caa",
@@ -258,7 +247,7 @@
 				"lng": 121.4974259
 			}
 		},
-		"10": {
+		"112": {
 			"name": "北投區",
 			"engName": "Beitou",
 			"color": "#5370b6",
@@ -270,18 +259,29 @@
 				"lng": 121.4824092
 			}
 		},
-		"11": {
-			"name": "大安區",
-			"engName": "Da’an",
-			"color": "#62c0b0",
-			"img_L": "dist-ll-11.png",
-			"img_S": "dist-rs-11.png",
+		"114": {
+			"name": "內湖區",
+			"engName": "Neihu",
+			"color": "#e54219",
+			"img_L": "dist-ll-07.png",
+			"img_S": "dist-rs-07.png",
 			"position": {
-				"lat": 25.0263453,
-				"lng": 121.5263364
+				"lat": 25.0835395,
+				"lng": 121.5728658
 			}
 		},
-		"12": {
+		"115": {
+			"name": "南港區",
+			"engName": "Nangang",
+			"color": "#503f86",
+			"img_L": "dist-ll-08.png",
+			"img_S": "dist-rs-08.png",
+			"position": {
+				"lat": 25.0384298,
+				"lng": 121.6044784
+			}
+		},
+		"116": {
 			"name": "文山區",
 			"engName": "Wenshan",
 			"color": "#52b2e5",
