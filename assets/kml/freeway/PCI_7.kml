@@ -1,0 +1,1799 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2"
+	xmlns:kml="http://www.opengis.net/kml/2.2"
+	xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document id="root_doc">
+		<Style id="default">
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0000ff</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_red-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_ylw-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_blu-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_grn-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_ltblu-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_orange-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/orange-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/orange-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_wht-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_pink-blank">
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_S-blank">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/S.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/S.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_M-blank">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/M.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/M.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_L-blank">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/L.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/L.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_H-blank">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/H.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/H.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_AC-blank">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/AC.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/AC.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_360">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_360B">
+			<IconStyle>
+				<scale>0.5</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360B.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360B.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_360G">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360G.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360G.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sh_360R">
+			<IconStyle>
+				<scale>1.7</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360R.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360R.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<StyleMap id="msn_red-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_red-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_red-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_blu-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_blu-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_blu-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_grn-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_grn-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_grn-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_orange-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_orange-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_orange-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ltblu-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ltblu-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ltblu-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_wht-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_wht-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_wht-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_pink-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_pink-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_pink-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_S-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_S-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_S-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_M-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_M-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_M-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_L-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_L-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_L-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_H-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_H-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_H-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_AC-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_AC-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_AC-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_360">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_360</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_360</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_360B">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_360B</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_360B</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_360G">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_360G</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_360G</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_360R">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_360R</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_360R</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<LineStyle>
+				<color>7fff0000</color>
+				<width>10</width>
+			</LineStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<LineStyle>
+				<color>7fff0000</color>
+				<width>10</width>
+			</LineStyle>
+		</Style>
+		<Style id="s_ylw-pushpin1">
+			<LineStyle>
+				<color>7f0000ff</color>
+				<width>10</width>
+			</LineStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl1">
+			<LineStyle>
+				<color>7f0000ff</color>
+				<width>10</width>
+			</LineStyle>
+		</Style>
+		<Style id="s_ylw-pushpina">
+			<LineStyle>
+				<color>660000ff</color>
+				<width>10</width>
+			</LineStyle>
+		</Style>
+		<Style id="s_ylw-pushpinb">
+			<LineStyle>
+				<color>660000ff</color>
+				<width>10</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id="s_ylw-pushpin12">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpina</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpinb</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sn_red-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_ylw-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_blu-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_grn-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_ltblu-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_orange-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/orange-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/orange-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_wht-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_pink-blank">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_S-blank">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/S.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/S.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_M-blank">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/M.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/M.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_L-blank">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/L.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/L.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_H-blank">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/H.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/H.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_AC-blank">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/AC.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/AC.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_360">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_360B">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360B.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360B.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_360G">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360G.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360G.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="sn_360R">
+			<IconStyle>
+				<scale>1.6</scale>
+				<Icon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360R.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://taipeinw.bim-group.com/images/google_icon/360R.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hla">
+			<LineStyle>
+				<color>820000ff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>820000ff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl1a">
+			<LineStyle>
+				<color>820000ff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>820000ff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin_hla</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl1a</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed123">
+			<LineStyle>
+				<color>cc2621a7</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>cc2621a7</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed49">
+			<LineStyle>
+				<color>cc2621a7</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>cc2621a7</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed12593">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed123</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed129</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed7">
+			<LineStyle>
+				<color>8200ffff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8200ffff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed4">
+			<LineStyle>
+				<color>8200ffff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8200ffff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed7</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed4</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed">
+			<LineStyle>
+				<color>8200ff80</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8200ff80</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed6">
+			<LineStyle>
+				<color>8200ff80</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8200ff80</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed3">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed6</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed0">
+			<LineStyle>
+				<color>82ffff00</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82ffff00</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed2">
+			<LineStyle>
+				<color>82ffff00</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82ffff00</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed2</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed8">
+			<LineStyle>
+				<color>82c08080</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82c08080</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed48">
+			<LineStyle>
+				<color>82c08080</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82c08080</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed81">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed8</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed48</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed9">
+			<LineStyle>
+				<color>82ff00ff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82ff00ff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed49">
+			<LineStyle>
+				<color>82ff00ff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82ff00ff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed59">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed9</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed49</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed10">
+			<LineStyle>
+				<color>82404080</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82404080</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed109">
+			<LineStyle>
+				<color>82404080</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82404080</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed1059">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed109</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed11">
+			<LineStyle>
+				<color>820080ff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>820080ff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed119">
+			<LineStyle>
+				<color>820080ff</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>820080ff</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed1159">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed11</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed119</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed12">
+			<LineStyle>
+				<color>cc00b900</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>cc00b900</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed49">
+			<LineStyle>
+				<color>cc00b900</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>cc00b900</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed1259">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed129</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed13">
+			<LineStyle>
+				<color>4cff0000</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4cff0000</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed139">
+			<LineStyle>
+				<color>4cff0000</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4cff0000</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed1359">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed139</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed14">
+			<LineStyle>
+				<color>82000040</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82000040</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed149">
+			<LineStyle>
+				<color>82000040</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82000040</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed1459">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed14</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed149</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="failed15">
+			<LineStyle>
+				<color>82000000</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82000000</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<Style id="failed159">
+			<LineStyle>
+				<color>82000000</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>82000000</color>
+				<width>10</width>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="failed1559">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#failed15</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#failed159</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder>
+			<Placemark>
+				<TimeSpan>
+					<begin>0</begin>
+					<end>100</end>
+				</TimeSpan>
+				<name>ID：1608，區塊編號：0201119000060，地點：北安路573巷2弄，面積：183㎡，道路編號：006-路口，上月PCI：85.4，本月PCI：79.6，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.548187321916,25.0818221230206,0 121.548232308749,25.0818134046422,0 121.548181091092,25.0816126901023,0 121.54815991344,25.0815294743874,0 121.548138068147,25.0814469049022,0 121.548098578054,25.0814561856967,0 121.548187321916,25.0818221230206</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2453，區塊編號：0101026010012，地點：民權東路1段，面積：218㎡，道路編號：001-逆向，上月PCI：70.7，本月PCI：60.2，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522878474958,25.0628982693333,0 121.52287541208,25.0628115665806,0 121.522854517994,25.0628121438293,0 121.522855214228,25.0627806382764,0 121.523153091491,25.0627756574884,0 121.52315238345,25.0627474369934,0 121.522792436671,25.0627558202907,0 121.522792208532,25.0629150972525,0 121.522840620441,25.0629000062165,0 121.522878474958,25.0628982693333</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2464，區塊編號：0101026010241，地點：民權東路1段，面積：279㎡，道路編號：024-順向，上月PCI：52.5，本月PCI：52.3，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.525003770163,25.0626832940285,0 121.524997616765,25.0625733300795,0 121.525100915217,25.0625693357469,0 121.525253860228,25.0625662794107,0 121.525256154632,25.0626569083794,0 121.525181586494,25.0626557611772,0 121.525111607163,25.0626557611772,0 121.525093251929,25.062670674805,0 121.525093251929,25.0626890300391,0 121.525003770163,25.0626832940285</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2470，區塊編號：0101026010342，地點：民權東路1段，面積：189㎡，道路編號：034-逆向，上月PCI：54.7，本月PCI：52.7，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.525842028985,25.0627051477926,0 121.525846475447,25.0628223202904,0 121.526027074467,25.0628198110825,0 121.526021338456,25.0627257405075,0 121.525855051847,25.0627315755131,0 121.525853538643,25.062704846319,0 121.525842028985,25.0627051477926</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2494，區塊編號：0101011000771，地點：松江路，面積：245㎡，道路編號：077-順向，上月PCI：72.3，本月PCI：70.1，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.533038174917,25.0512149241206,0 121.533140711737,25.051211806968,0 121.533147226431,25.0511150360788,0 121.533148896645,25.0510910680957,0 121.533150576428,25.0510536759476,0 121.533151133978,25.0510120750407,0 121.533038031334,25.05101207663,0 121.533038174917,25.0512149241206</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2558，區塊編號：0101026020181，地點：民權東路2段，面積：283㎡，道路編號：018-順向，上月PCI：65.6，本月PCI：50.7，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.5293388966,25.0625782214728,0 121.529333329876,25.0624588461617,0 121.52959744002,25.062456372062,0 121.529601769694,25.0625571916252,0 121.529539298677,25.0625534804757,0 121.529442190263,25.0625466767015,0 121.529363637597,25.0625491508012,0 121.529364256122,25.0625782214728,0 121.5293388966,25.0625782214728</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2565，區塊編號：0101026020201，地點：民權東路2段，面積：252㎡，道路編號：020-順向，上月PCI：47.4，本月PCI：42.7，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.529603006744,25.0625565731003,0 121.52959867707,25.0624569905869,0 121.529839901791,25.0624551350122,0 121.529835572117,25.0625349247278,0 121.529752071252,25.0625367803026,0 121.529744030428,25.0625398729273,0 121.529743411903,25.0625670880241,0 121.52964011824,25.0625584286751,0 121.529603006744,25.0625565731003</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2569，區塊編號：0101026020282，地點：民權東路2段，面積：290㎡，道路編號：028-逆向，上月PCI：75.1，本月PCI：66.5，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.530477600992,25.062696359734,0 121.530463993444,25.0625540990006,0 121.530650787972,25.0625528619508,0 121.530655736171,25.0626951226841,0 121.530477600992,25.062696359734</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：2630，區塊編號：0101026020291，地點：民權東路2段，面積：296㎡，道路編號：029-順向，上月PCI：63.5，本月PCI：59.5，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.530465304073,25.0625494359205,0 121.530459656871,25.0624308446875,0 121.530674250531,25.0624223738851,0 121.530685544934,25.0625466123197,0 121.530465304073,25.0625494359205</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3067，區塊編號：0101041001341，地點：北安路，面積：265㎡，道路編號：134-順向，上月PCI：42，本月PCI：40.4，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.540859897044,25.0794919329807,0 121.54086559382,25.0794118445518,0 121.540985986202,25.079420048098,0 121.541164895082,25.0794300616985,0 121.54116463761,25.079511147679,0 121.5411609901,25.0795084103895,0 121.541157967876,25.0795071833287,0 121.540859897044,25.0794919329807</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3100，區塊編號：0101005020332，地點：中山北路2段，面積：258㎡，道路編號：033-逆向，上月PCI：80.4，本月PCI：75.7，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522534909784,25.0545808101075,0 121.522600493658,25.0545781695411,0 121.522582631159,25.0542262810407,0 121.522517001684,25.0542288323282,0 121.522519286727,25.0542847974747,0 121.522522645157,25.0543425063034,0 121.522534060722,25.0545527191114,0 121.522534396476,25.0545639409164,0 121.522534909784,25.0545808101075</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3223，區塊編號：0101041002551，地點：北安路，面積：211㎡，道路編號：255-順向，上月PCI：65.4，本月PCI：61.7，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.556870010864,25.084483337335,0 121.556843950004,25.0843642865893,0 121.556808958906,25.0843711382219,0 121.556754672954,25.0843833588734,0 121.556691320787,25.084399550122,0 121.556720120717,25.0845172810545,0 121.556821370329,25.0844929912472,0 121.556870010864,25.084483337335</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3317，區塊編號：0101005021242，地點：中山北路2段，面積：235㎡，道路編號：124-逆向，上月PCI：46.8，本月PCI：44.1，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522665820721,25.0622191834835,0 121.522606445154,25.0622057371668,0 121.522593078096,25.062262463272,0 121.522540783339,25.0624847673622,0 121.522529002344,25.0625355658926,0 121.522607148434,25.0625505132151,0 121.522612424811,25.0625232164759,0 121.522610079755,25.062523535115,0 121.522603748102,25.0625224729849,0 121.522598940737,25.0625169499085,0 121.522598119967,25.062512595175,0 121.522633764824,25.0623495580903,0 121.522665820721,25.0622191834835</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3322，區塊編號：0101005021361，地點：中山北路2段，面積：254㎡，道路編號：136-順向，上月PCI：86.6，本月PCI：84.6，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522574613168,25.0633545609582,0 121.522636558752,25.063368989959,0 121.522652648983,25.0633016393254,0 121.522671219765,25.0632249228418,0 121.522685096834,25.0631657679302,0 121.522695096486,25.0631254686303,0 121.522716524312,25.063030266103,0 121.522642649331,25.0630136287606,0 121.522639996362,25.0630243506037,0 121.522643669704,25.0630263840566,0 121.52264754712,25.0630330389932,0 121.522647343045,25.0630387696327,0 121.522574613168,25.0633545609582</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3326，區塊編號：0101005021351，地點：中山北路2段，面積：236㎡，道路編號：135-順向，上月PCI：51.9，本月PCI：50.5，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522491121039,25.0633351131153,0 121.522551295482,25.0633491295638,0 121.522624255362,25.0630294664188,0 121.522627750826,25.0630259482639,0 121.522632605637,25.0630234855554,0 121.52263843141,25.0630240132787,0 121.522641344297,25.0630136347212,0 121.522571823401,25.0629983307449,0 121.522547743537,25.0630934968193,0 121.522524052058,25.0631948195827,0 121.522500360579,25.063297021799,0 121.522491121039,25.0633351131153</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3332，區塊編號：0101005021372，地點：中山北路2段，面積：259㎡，道路編號：137-逆向，上月PCI：64.6，本月PCI：62.6，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522483761244,25.0633605196343,0 121.522421857503,25.0633467265027,0 121.522504965054,25.0630120814523,0 121.522504538132,25.0630078274839,0 121.52250126506,25.0630038313316,0 121.522497565067,25.0630008664444,0 121.522501976598,25.062981916946,0 121.522570995711,25.0629979015571,0 121.522545238063,25.0630997389498,0 121.522483761244,25.0633605196343</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3335，區塊編號：0101005021342，地點：中山北路2段，面積：213㎡，道路編號：134-逆向，上月PCI：49.2，本月PCI：45.6，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522363275796,25.0632289660901,0 121.522425791079,25.0632425570258,0 121.522481979767,25.0630111666682,0 121.522483364111,25.0630057326791,0 121.522487670958,25.0630018313534,0 121.52249336215,25.0629998806905,0 121.522496729415,25.0630001693367,0 121.522500995402,25.0629817998502,0 121.522393997023,25.0629578020979,0 121.52238492188,25.062966998083,0 121.522389690175,25.0629734074055,0 121.522395535183,25.0629831607217,0 121.522404302694,25.0630047573477,0 121.522410609149,25.0630329026223,0 121.522363275796,25.0632289660901</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3434，區塊編號：0101051000621，地點：長春路，面積：289㎡，道路編號：062-順向，上月PCI：27.6，本月PCI：25.7，PCI程度：很差</name>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.533560858764,25.0548092054294,0 121.533559398637,25.0547346913803,0 121.533258403958,25.054737223436,0 121.533244260406,25.0547321996105,0 121.533234237356,25.0547250074108,0 121.533222074753,25.0547351350839,0 121.533221621191,25.0548143398318,0 121.533560858764,25.0548092054294</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3558，區塊編號：0101024000441，地點：民族東路，面積：238㎡，道路編號：044-順向，上月PCI：45.5，本月PCI：44.8，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.52832798634,25.0683204450582,0 121.528325901937,25.0682384585093,0 121.528186940697,25.0682412200621,0 121.528163126172,25.0682292684022,0 121.528092978543,25.0682306411345,0 121.528087026212,25.0682275625218,0 121.528075913517,25.0682482161552,0 121.528087745527,25.0683254448577,0 121.52832798634,25.0683204450582</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：3835，區塊編號：0101042001081，地點：林森北路，面積：296㎡，道路編號：108-順向，上月PCI：62.1，本月PCI：60.8，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.525674554563,25.0648448440461,0 121.525665227019,25.0644644130275,0 121.525732574693,25.0644634556167,0 121.525739114013,25.064664280234,0 121.525745051809,25.0648190147686,0 121.525757803602,25.0648324832609,0 121.525749087867,25.0648430736658,0 121.525674554563,25.0648448440461</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4147，區塊編號：0105034020132，地點：八德路2段，面積：193㎡，道路編號：013-逆向，上月PCI：83.8，本月PCI：78.2，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536122991589,25.046013509005,0 121.536151039716,25.0459404871566,0 121.536099049806,25.0459177232699,0 121.536015963076,25.0458791104971,0 121.535957961783,25.0458493543782,0 121.535917430754,25.0459158629522,0 121.536000730509,25.0459591239551,0 121.536122991589,25.046013509005</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4148，區塊編號：0105034020171，地點：八德路2段，面積：276㎡，道路編號：017-順向，上月PCI：76.4，本月PCI：69.8，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.537199037735,25.046187465224,0 121.537216254504,25.046086715244,0 121.537167978732,25.0460790707862,0 121.537030573237,25.0460584257026,0 121.536995885959,25.0460497489056,0 121.536981576713,25.0460417054618,0 121.536968881513,25.0460502577688,0 121.536970781247,25.0461513368701,0 121.537199037735,25.046187465224</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4295，區塊編號：0101030010371，地點：南京東路1段，面積：252㎡，道路編號：037-順向，上月PCI：60.3，本月PCI：54.4，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.526047098587,25.0520957636905,0 121.526041620132,25.0519816132379,0 121.525847826008,25.051983309283,0 121.525848243218,25.0520989649559,0 121.526047098587,25.0520957636905</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4459，區塊編號：0101032020141，地點：長安東路2段，面積：259㎡，道路編號：014-順向，上月PCI：68.8，本月PCI：66.9，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.531803987693,25.0484804474835,0 121.53180270956,25.0484053745259,0 121.531538765133,25.0484119043948,0 121.5315294635,25.0484097104305,0 121.53151630912,25.0484032781257,0 121.531507062527,25.0483964967808,0 121.531494551229,25.0484121546612,0 121.531495711468,25.0484863872807,0 121.531803987693,25.0484804474835</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4490，區塊編號：0101032020632，地點：長安東路2段，面積：274㎡，道路編號：063-逆向，上月PCI：84.8，本月PCI：80.4，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.540008034244,25.0484092487923,0 121.540008835144,25.048345977734,0 121.539680439047,25.0483490725051,0 121.53963030822,25.0483470996144,0 121.539630797679,25.0484158998245,0 121.540008034244,25.0484092487923</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4636，區塊編號：0101013010192，地點：建國北路1段，面積：292㎡，道路編號：019-逆向，上月PCI：70.4，本月PCI：68.6，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536381431107,25.0473586598935,0 121.536471262431,25.0473573472577,0 121.53646630936,25.0471183871707,0 121.536464278421,25.0470673619955,0 121.536374904956,25.0470683745532,0 121.536381431107,25.0473586598935</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4656，區塊編號：0101013010552，地點：建國北路1段，面積：261㎡，道路編號：055-逆向，上月PCI：75.8，本月PCI：74.9，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536572926047,25.0498063818303,0 121.536435401355,25.0498078950585,0 121.536439202467,25.0499781627421,0 121.536571493134,25.0499776500379,0 121.536575789636,25.0499225455231,0 121.536572926047,25.0498063818303</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4724，區塊編號：0101013020481，地點：建國北路2段，面積：254㎡，道路編號：048-順向，上月PCI：48.4，本月PCI：46.4，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.537061363617,25.0550617875337,0 121.537166466324,25.0550611485225,0 121.537162327323,25.0548653796524,0 121.537164493574,25.0548547774164,0 121.537167388298,25.0548480044887,0 121.537162062533,25.0548451628981,0 121.537059541851,25.0548471708976,0 121.537042317284,25.0548603021279,0 121.537046797157,25.0548643029306,0 121.537052193613,25.0548710932238,0 121.537056142707,25.0548785781758,0 121.537059171624,25.0548906999764,0 121.537061363617,25.0550617875337</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：4867，區塊編號：0101009030961，地點：新生北路3段，面積：246㎡，道路編號：096-順向，上月PCI：55.9，本月PCI：52.9，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.528030983924,25.0694759796409,0 121.528127307388,25.0694743742499,0 121.528121631736,25.0692475356041,0 121.528024502006,25.0692486513916,0 121.528030983924,25.0694759796409</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：5473，區塊編號：0101157020071，地點：長安東路2段36巷，面積：180㎡，道路編號：007-順向，上月PCI：65.4，本月PCI：63.8，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.5314347535,25.048098753887,0 121.531484169222,25.048098753887,0 121.531481379975,25.0479435464224,0 121.531482431777,25.0478507116479,0 121.531480893516,25.0477727031067,0 121.53143085403,25.0477732391048,0 121.5314347535,25.048098753887</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：5722，區塊編號：0101197020091，地點：民生東路2段147巷，面積：213㎡，道路編號：009-順向，上月PCI：96.2，本月PCI：96，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.534840235433,25.0595630147891,0 121.534847702522,25.0599227752246,0 121.534919838956,25.0598820889938,0 121.534903053621,25.0598662904765,0 121.534898018778,25.0596133081678,0 121.534913785787,25.0595984217963,0 121.534840235433,25.0595630147891</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：6083，區塊編號：0101217000981，地點：龍江路，面積：298㎡，道路編號：098-順向，上月PCI：64.2，本月PCI：63，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.540908541318,25.0629377249548,0 121.54097590826,25.0628985493604,0 121.540971885911,25.0628942993671,0 121.540970203515,25.062890027909,0 121.540969522263,25.0628866901615,0 121.540961811528,25.0625277127386,0 121.540964512841,25.0625186117157,0 121.540969210517,25.0625119174193,0 121.540976601361,25.0625049977437,0 121.540992006543,25.0624989017741,0 121.540983550132,25.0624983745479,0 121.540898176667,25.0624981129471,0 121.540908541318,25.0629377249548</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：7001，區塊編號：0101333010782，地點：新生北路1段，面積：213㎡，道路編號：078-逆向，上月PCI：68.2，本月PCI：67，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.527750376972,25.0511405937001,0 121.527817162946,25.0511606027088,0 121.527819804471,25.0511523645729,0 121.527856922546,25.051048071851,0 121.527898371296,25.0509316107757,0 121.527906377679,25.0509096569167,0 121.527840313449,25.0508876612428,0 121.527822027359,25.0509367738985,0 121.527783126569,25.0510363563435,0 121.527750376972,25.0511405937001</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：7067，區塊編號：0101292020241，地點：堤頂大道2段，面積：250㎡，道路編號：024-順向，上月PCI：96.9，本月PCI：95.9，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.56175586245,25.0820818277903,0 121.561822718916,25.0821067690625,0 121.561843629976,25.08205872575,0 121.561872528433,25.0819907424524,0 121.561947579493,25.081815998417,0 121.561880358298,25.0817944876344,0 121.561874721999,25.0818076242923,0 121.561836727836,25.08189417912,0 121.561811087914,25.0819529311925,0 121.561775314933,25.0820369096463,0 121.56175586245,25.0820818277903</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：7094，區塊編號：0101292020412，地點：堤頂大道2段，面積：215㎡，道路編號：041-逆向，上月PCI：92.5，本月PCI：92.1，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.563141992146,25.0796950435545,0 121.563198199725,25.0797355246608,0 121.563201341458,25.0797319536755,0 121.563274603424,25.0796484303444,0 121.563348634354,25.0795645666625,0 121.563383215628,25.0795254190234,0 121.563327868941,25.0794847921999,0 121.563327103605,25.079485656247,0 121.563191995471,25.079638189991,0 121.563141992146,25.0796950435545</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：7497，區塊編號：0101332001191，地點：濱江街，面積：192㎡，道路編號：119-順向，上月PCI：57.4，本月PCI：53.9，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.543911927752,25.072255789363,0 121.543910667112,25.0721347679135,0 121.543910227187,25.0721347778882,0 121.543768283644,25.0721366263892,0 121.543773221555,25.0722600741761,0 121.543805335274,25.0722588348623,0 121.543911927752,25.072255789363</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：7567，區塊編號：0101027000342，地點：民權西路，面積：321㎡，道路編號：034-逆向，上月PCI：47.9，本月PCI：45.7，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522131018149,25.0628274193197,0 121.522430248764,25.0628199789929,0 121.522393975288,25.0629577901944,0 121.52238490761,25.0629669779361,0 121.52237779939,25.0629584010416,0 121.522366739089,25.0629471554452,0 121.522357021943,25.062938959077,0 121.522349980052,25.06293379191,0 121.522338228828,25.0629261963744,0 121.52232952043,25.06292192545,0 121.522313084745,25.0629152587021,0 121.522131358084,25.0629195095989,0 121.522131018149,25.0628274193197</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：7968，區塊編號：0101349000111，地點：錦西街，面積：307㎡，道路編號：011-順向，上月PCI：67.8，本月PCI：66.8，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522311369029,25.0603116341736,0 121.52231093266,25.0603661803347,0 121.52232989152,25.0603656159718,0 121.522745088743,25.0603558789883,0 121.522809976044,25.0603555794353,0 121.522812639197,25.0603586300762,0 121.522811398817,25.0602994186751,0 121.522311369029,25.0603116341736</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：9401，區塊編號：0201345000061，地點：南京西路23巷，面積：230㎡，道路編號：006-順向，上月PCI：98.061，本月PCI：97.3，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.52056937628,25.0531521063807,0 121.520542233141,25.0531531371328,0 121.520552873153,25.0533435218239,0 121.520558072015,25.0534215047603,0 121.52056846974,25.053582122247,0 121.520569691413,25.0536037939255,0 121.520592525011,25.0536028448517,0 121.520627793848,25.0535618077776,0 121.520611402076,25.0535475641905,0 121.520611164456,25.0535436780937,0 121.520610117527,25.0535265563373,0 121.520606757501,25.0534716055726,0 121.520604152909,25.0534290093397,0 121.52059017874,25.053200471247,0 121.520604519746,25.0531852899994,0 121.520569344055,25.0531521515268,0 121.52056937628,25.0531521063807</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：9465，區塊編號：0301013003172，地點：建國高架，面積：248㎡，道路編號：317-逆向，上月PCI：66.1，本月PCI：64.8，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536624620332,25.0518197681413,0 121.536786666052,25.0518180274145,0 121.536783548871,25.0516806493757,0 121.536621811176,25.051682737585,0 121.536623337115,25.0517458980733,0 121.536624620332,25.0518197681413</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：10274，區塊編號：0101041002902，地點：北安路，面積：180㎡，道路編號：290-逆向，上月PCI：69.5，本月PCI：68.1，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.555189976434,25.0848224525801,0 121.555231120674,25.0849537102801,0 121.555344116791,25.0849193600519,0 121.555302346541,25.0847897525718,0 121.555189976434,25.0848224525801</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：10789，區塊編號：0101171010082，地點：建國北路1段92巷，面積：181㎡，道路編號：008-逆向，上月PCI：81.2，本月PCI：75.4，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536150640886,25.0501516085005,0 121.536151405409,25.0502041694496,0 121.536402746814,25.0502023221278,0 121.536444626953,25.0502405832034,0 121.536442685564,25.050149169588,0 121.536150640886,25.0501516085005</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：11231，區塊編號：0101041003912，地點：北安路，面積：241㎡，道路編號：391-逆向，上月PCI：57.8，本月PCI：54.2，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.549835420287,25.0865719265991,0 121.549734737191,25.0865010755316,0 121.549678464228,25.0865722575599,0 121.549649191449,25.0866185217222,0 121.549631552869,25.0866501300365,0 121.549753397016,25.0867051400526,0 121.549761373732,25.0866906915513,0 121.549776118571,25.0866604810432,0 121.549801257313,25.0866149463501,0 121.549835420287,25.0865719265991</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：11261，區塊編號：0101032020752，地點：長安東路2段，面積：264㎡，道路編號：075-逆向，上月PCI：77.1，本月PCI：75.2，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.54140558721,25.0482315284391,0 121.54140558721,25.0483064094546,0 121.541466024457,25.0483054528021,0 121.541721641823,25.0483007890859,0 121.541720228463,25.0482259953274,0 121.54140558721,25.0482315284391</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：11340，區塊編號：0101192000020，地點：大直街94巷3弄，面積：256㎡，道路編號：002-路口，上月PCI：43.5，本月PCI：40.5，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.547832646825,25.0849794045176,0 121.547830963937,25.0850534515538,0 121.54813990177,25.0850655279646,0 121.548142773895,25.0849915962568,0 121.547832646825,25.0849794045176</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：11392，區塊編號：0101052000162，地點：渭水路，面積：269㎡，道路編號：016-逆向，上月PCI：80.2，本月PCI：77.3，PCI程度：好</name>
+				<styleUrl>#failed3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.535219097372,25.0456803299133,0 121.535218532812,25.0457497708593,0 121.535567692941,25.0457427564602,0 121.535454446029,25.0456445838771,0 121.535444155596,25.0456504229138,0 121.535432220324,25.0456386927871,0 121.535419977256,25.0456467076045,0 121.53543149405,25.0456578285769,0 121.535408989354,25.0456646176829,0 121.535356716603,25.0456729422571,0 121.535353566938,25.0456730649001,0 121.535350446722,25.0456723084262,0 121.535347855167,25.0456696181066,0 121.535287062379,25.0456766748663,0 121.535224913015,25.0456801245146,0 121.535219097372,25.0456803299133</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：11582，區塊編號：0101302000332，地點：崇實路，面積：184㎡，道路編號：033-逆向，上月PCI：92.4，本月PCI：92.2，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.544423642973,25.083387188032,0 121.544369304556,25.0833861012637,0 121.544370339082,25.0834492073612,0 121.544367927622,25.0836107752038,0 121.544369009735,25.0836257083628,0 121.544453027911,25.0836279193674,0 121.544446300083,25.0835673689177,0 121.544425760281,25.0834202180284,0 121.544423642973,25.083387188032</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：11830，區塊編號：0101030020822，地點：南京東路2段，面積：240㎡，道路編號：082-逆向，上月PCI：76，本月PCI：67.9，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.535459202122,25.0518930297668,0 121.535459794359,25.0520035532797,0 121.535492279123,25.0520031987168,0 121.535515613789,25.0520031987168,0 121.535653620023,25.0520006865164,0 121.535650188201,25.0518885563066,0 121.53548952306,25.0518925079491,0 121.535459202122,25.0518930297668</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：12473，區塊編號：0101051000011，地點：長春路，面積：190㎡，道路編號：001-順向，上月PCI：33.8，本月PCI：33.1，PCI程度：很差</name>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.523112981051,25.0550409306924,0 121.523110240497,25.0549734847987,0 121.522862686656,25.0549768707935,0 121.52286618811,25.0550619967499,0 121.522872584271,25.0550536921721,0 121.522887079534,25.0550471508753,0 121.522930150153,25.0550441930093,0 121.523112981051,25.0550409306924</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：12646，區塊編號：0101028020151，地點：民生東路2段，面積：268㎡，道路編號：015-順向，上月PCI：97.1，本月PCI：96.2，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.529700540428,25.0579053094539,0 121.529702919553,25.058014506378,0 121.529919927409,25.0580117400901,0 121.529919927409,25.0579014965526,0 121.529700540428,25.0579053094539</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：12832，區塊編號：0101172020061，地點：建國北路2段116巷，面積：240㎡，道路編號：006-順向，上月PCI：65.9，本月PCI：60.7，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536335942547,25.0587757558184,0 121.536338259299,25.0588468486237,0 121.536619335995,25.0588442969457,0 121.536625690242,25.0588464119088,0 121.536633750809,25.058853711339,0 121.53663614652,25.058858165863,0 121.536634312304,25.0587604595591,0 121.536631383174,25.0587656284291,0 121.536627053426,25.0587695713691,0 121.536621008001,25.0587720107513,0 121.536335942547,25.0587757558184</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：13111，區塊編號：0101026010070，地點：民權東路1段，面積：252㎡，道路編號：007-路口，上月PCI：63.7，本月PCI：61.7，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.523326960672,25.0627486557585,0 121.523331005127,25.062883687272,0 121.523505176867,25.0628791185753,0 121.523504815423,25.0627576490686,0 121.523326960672,25.0627486557585</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：13173，區塊編號：0101050001032，地點：吉林路，面積：167㎡，道路編號：103-逆向，上月PCI：57.6，本月PCI：55.6，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.530371564537,25.0622375297495,0 121.530289156712,25.0622384628617,0 121.530292591788,25.0624195306215,0 121.53038880618,25.0624170902267,0 121.530382744213,25.0624103611087,0 121.530377558252,25.0624023623454,0 121.530373874754,25.0623897721291,0 121.530371564537,25.0622375297495</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：13291，區塊編號：0101005021222，地點：中山北路2段，面積：245㎡，道路編號：122-逆向，上月PCI：62.2，本月PCI：60.2，PCI程度：尚可</name>
+				<styleUrl>#failed5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.522756089147,25.0622135741458,0 121.522695629638,25.0622014421832,0 121.522621154307,25.062517402731,0 121.522615502421,25.062521549127,0 121.522608751203,25.0625501699642,0 121.522671088575,25.0625621654749,0 121.522703744244,25.0624279774947,0 121.522719602886,25.0623678451991,0 121.522756089147,25.0622135741458</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：13296，區塊編號：0101005021022，地點：中山北路2段，面積：227㎡，道路編號：102-逆向，上月PCI：49.1，本月PCI：42.2，PCI程度：差</name>
+				<styleUrl>#failed59</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.523057885306,25.0607246506923,0 121.523121717213,25.0607235169132,0 121.523119143031,25.060595265284,0 121.523115588375,25.0605066446336,0 121.523111389147,25.060426650761,0 121.523033403561,25.0604283856454,0 121.523034913123,25.0604582042509,0 121.523040322383,25.0604603042679,0 121.523044804341,25.0604657643119,0 121.523057885306,25.0607246506923</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：13743，區塊編號：0101013010060，地點：建國北路1段，面積：242㎡，道路編號：006-路口，上月PCI：94.7，本月PCI：93.8，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536862282738,25.0460952336945,0 121.536661015811,25.0460979484531,0 121.536662243097,25.0462041396053,0 121.536863194716,25.0462046378892,0 121.536862282738,25.0460952336945</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ID：13750，區塊編號：0301013002601，地點：建國高架，面積：237㎡，道路編號：260-順向，上月PCI：94，本月PCI：93.3，PCI程度：很好</name>
+				<styleUrl>#failed1259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>121.536879554074,25.0461044808122,0 121.536663310058,25.0461099227574,0 121.53666532294,25.0462058939177,0 121.536882537821,25.0462038189233,0 121.536879554074,25.0461044808122</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>
+
