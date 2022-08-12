@@ -97,12 +97,7 @@
 				"streetViewJSON": {
 					"freeway": "${publicPath}assets/panorama/freeway/streetView.json"
 				},
-				"sceneSetting": {
-					"hfov": 150,
-					"horizonRoll": 0,
-					"pitch": -5,
-					"yaw": 180
-				}
+				"monthRestriction": {}
 			}
 		}
 	},

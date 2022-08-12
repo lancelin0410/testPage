@@ -123,21 +123,25 @@
 		},
 		"panorama": {
 			"type": "panorama",
-			"assetsUrl": "https://storage.googleapis.com/demo-freeway20200701",
+			"assetsUrl": "https://storage.googleapis.com/map_panorama",
 			"name": "街景",
 			"description": "街景",
 			"icon": "mdi-eye-arrow-left",
 			"color": "#CCA7A2",
 			"options": {
 				"streetViewJSON": {
-					"7": "${publicPath}assets/panorama/7/streetView.json",
-					"8": "${publicPath}assets/panorama/8/streetView.json"
+					"7": "${publicPath}assets/panorama/7/${dateStr}/streetView.json",
+					"8": "${publicPath}assets/panorama/8/${dateStr}/streetView.json"
 				},
-				"sceneSetting": {
-					"hfov": 150,
-					"horizonRoll": 4,
-					"pitch": -5,
-					"yaw": 0
+				"monthRestriction": {
+					"7": {
+						"2020": [ 8 ],
+						"2022": [ 8 ]
+					},
+					"8": {
+						"2020": [ 5 ],
+						"2022": [ 8 ]
+					}
 				}
 			}
 		}

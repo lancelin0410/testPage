@@ -1,4 +1,10 @@
 {
+		"sceneSetting": {
+			"hfov": 150,
+			"horizonRoll": 0,
+			"pitch": -5,
+			"yaw": 180
+		},
     "data": [
         [
             {
