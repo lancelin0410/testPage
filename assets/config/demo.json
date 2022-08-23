@@ -130,10 +130,16 @@
 			"color": "#CCA7A2",
 			"options": {
 				"streetViewJSON": {
+					"1": "${publicPath}assets/panorama/1/${dateStr}/streetView.json",
 					"7": "${publicPath}assets/panorama/7/${dateStr}/streetView.json",
 					"8": "${publicPath}assets/panorama/8/${dateStr}/streetView.json"
 				},
 				"monthRestriction": {
+					"1": {
+						"2022": [
+							8
+						]
+					},
 					"7": {
 						"2020": [ 8 ],
 						"2022": [ 8 ]
