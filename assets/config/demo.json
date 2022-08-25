@@ -129,11 +129,7 @@
 			"icon": "mdi-eye-arrow-left",
 			"color": "#CCA7A2",
 			"options": {
-				"streetViewJSON": {
-					"1": "${publicPath}assets/panorama/1/${dateStr}/streetView.json",
-					"7": "${publicPath}assets/panorama/7/${dateStr}/streetView.json",
-					"8": "${publicPath}assets/panorama/8/${dateStr}/streetView.json"
-				},
+				"streetViewJSON": "https://storage.googleapis.com/map_panorama/panorama/${dist}/${dateStr}/streetView.json",
 				"monthRestriction": {
 					"1": {
 						"2022": [

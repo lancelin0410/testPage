@@ -94,9 +94,7 @@
 			"icon": "mdi-eye-arrow-left",
 			"color": "#CCA7A2",
 			"options": {
-				"streetViewJSON": {
-					"freeway": "${publicPath}assets/panorama/freeway/streetView.json"
-				},
+				"streetViewJSON": "https://storage.googleapis.com/map_panorama/panorama/${dist}/streetView.json",
 				"monthRestriction": {}
 			}
 		}
