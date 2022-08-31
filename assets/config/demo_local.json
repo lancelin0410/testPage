@@ -2,7 +2,7 @@
 	"layerList": {
 		"PCI": {
 			"type": "PCI",
-			"assetsUrl": "http://taipeinw.bim-group.com",
+			"assetsUrl": "http://storage.googleapis.com/map_kml/demo",
 			"name": "鋪面",
 			"description": "鋪面狀況",
 			"icon": "mdi-road-variant",
@@ -58,37 +58,37 @@
 							"text": "序號",
 							"align": "center",
 							"value": "order",
-							"width": "10%"
+							"width": "0%"
 						},
 						{
 							"text": "編號",
 							"align": "center",
 							"value": "id",
-							"width": "10%"
+							"width": "0%"
 						},
 						{
 							"text": "區塊路名",
 							"align": "center",
 							"value": "block",
-							"width": "20%"
+							"width": "45%"
 						},
 						{
 							"text": "面積",
 							"align": "center",
 							"value": "area",
-							"width": "5%"
+							"width": "10%"
 						},
 						{
 							"text": "位置",
 							"align": "center",
 							"value": "place",
-							"width": "20%"
+							"width": "25%"
 						},
 						{
 							"text": "PCI",
 							"align": "center",
 							"value": "score",
-							"width": "25%"
+							"width": "10%"
 						},
 						{
 							"text": "操作",
@@ -132,16 +132,19 @@
 				"streetViewJSON": "${publicPath}assets/panorama/${dist}/${dateStr}/streetView.json",
 				"horSpotsJSON": "${publicPath}assets/panorama/${dist}/${dateStr}/hotSpots.json",
 				"monthRestriction": {
+					"0": {
+						"2022": [ 8 ]
+					},
 					"1": {
 						"2022": [ 8 ]
 					},
 					"7": {
 						"2020": [ 8 ],
-						"2022": [ 8, 9 ]
+						"2022": [ 8 ]
 					},
 					"8": {
 						"2020": [ 5 ],
-						"2022": [ 8, 9 ]
+						"2022": [ 8 ]
 					}
 				}
 			}
@@ -155,8 +158,8 @@
 			"img_L": "dist-ll-00.png",
 			"img_S": "dist-rs-00.png",
 			"position": {
-				"lat": 25.0374865,
-				"lng": 121.5647688
+				"lat": 25.058131,
+				"lng": 121.5205886
 			}
 		},
 		"1": {
