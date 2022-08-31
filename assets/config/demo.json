@@ -2,7 +2,7 @@
 	"layerList": {
 		"PCI": {
 			"type": "PCI",
-			"assetsUrl": "http://storage.googleapis.com/map_kml/demo",
+			"assetsUrl": "https://storage.googleapis.com/map_kml/demo",
 			"name": "鋪面",
 			"description": "鋪面狀況",
 			"icon": "mdi-road-variant",
@@ -120,6 +120,15 @@
 			"description": "人行道",
 			"icon": "mdi-walk",
 			"color": "#4E5283"
+		},
+		"holeCover": {
+			"type": "default",
+			"assetsUrl": "",
+			"name": "孔蓋",
+			"description": "孔蓋",
+			"icon": "",
+			"iconSource": "assets/icon/icon_manhole.png",
+			"color": "#607D8B"
 		},
 		"panorama": {
 			"type": "panorama",

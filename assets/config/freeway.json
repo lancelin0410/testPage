@@ -2,7 +2,7 @@
 	"layerList": {
 		"PCI": {
 			"type": "PCI",
-			"assetsUrl": "http://storage.googleapis.com/map_kml/freeway/PCI_${level}.kml",
+			"assetsUrl": "https://storage.googleapis.com/map_kml/freeway/PCI_${level}.kml",
 			"name": "鋪面",
 			"description": "鋪面狀況",
 			"icon": "mdi-road-variant",
@@ -64,7 +64,7 @@
 		},
 		"delineator": {
 			"type": "default",
-			"assetsUrl": "http://storage.googleapis.com/map_kml/freeway/delineator.kml",
+			"assetsUrl": "https://storage.googleapis.com/map_kml/freeway/delineator.kml",
 			"name": "反光導標",
 			"description": "反光導標",
 			"icon": "mdi-traffic-cone",
@@ -72,7 +72,7 @@
 		},
 		"signal": {
 			"type": "default",
-			"assetsUrl": "http://storage.googleapis.com/map_kml/freeway/signal.kml",
+			"assetsUrl": "https://storage.googleapis.com/map_kml/freeway/signal.kml",
 			"name": "號誌",
 			"description": "號誌",
 			"icon": "mdi-railroad-light",
