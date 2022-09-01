@@ -132,14 +132,24 @@
 		},
 		"panorama": {
 			"type": "panorama",
-			"assetsUrl": "https://storage.googleapis.com/map_panorama",
+			"assetsUrl": "https://storage.googleapis.com/map_panorama/demo",
 			"name": "街景",
 			"description": "街景",
 			"icon": "mdi-eye-arrow-left",
 			"color": "#CCA7A2",
 			"options": {
-				"streetViewJSON": "${publicPath}assets/panorama/${dist}/${dateStr}/streetView.json",
-				"horSpotsJSON": "${publicPath}assets/panorama/${dist}/${dateStr}/hotSpots.json",
+				"streetViewType": {
+					"pano_road": {
+						"name": "鋪面",
+						"color": "#2196F3"
+					},
+					"pano_walk": {
+						"name": "人行道",
+						"color": "#CDDC39"
+					}
+				},
+				"streetViewJSON": "https://storage.googleapis.com/map_config/demo/${type}/${dist}/${dateStr}/streetView.json",
+				"hotSpotsJSON": "https://storage.googleapis.com/map_config/demo/${type}/${dist}/${dateStr}/hotSpots.json",
 				"monthRestriction": {
 					"0": {
 						"2022": [ 8 ]
