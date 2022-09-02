@@ -105,13 +105,33 @@
 				}
 			}
 		},
-		"buildings": {
-			"type": "default",
+		"facility": {
+			"type": "facility",
 			"assetsUrl": "",
 			"name": "設施物",
 			"description": "設施物",
 			"icon": "mdi-domain",
-			"color": "#7871AA"
+			"color": "#7871AA",
+			"options": {
+				"facilityType": {
+					"busStop": {
+						"name": "公車站"
+					},
+					"ubike": {
+						"name": "YouBike"
+					},
+					"wheelChair": {
+						"name": "無障礙鈄坡道"
+					},
+					"callBox": {
+						"name": "電話亭"
+					},
+					"transformerBox": {
+						"name": "變電箱"
+					}
+				},
+				"geoJSONUrl": "https://storage.googleapis.com/map_config/demo/facility/${dist}/${dateStr}/${type}.json"
+			}
 		},
 		"sidewalk": {
 			"type": "default",

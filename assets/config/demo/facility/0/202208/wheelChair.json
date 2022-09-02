@@ -1,0 +1,33 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5226323874440,
+					25.0522845053864 
+				]
+			},
+			"properties": {
+				"type": "wheelChair",
+				"description": "無障礙斜坡道"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5226429322000,
+					25.0523452860384
+				]
+			},
+			"properties": {
+				"type": "wheelChair",
+				"description": "無障礙斜坡道"
+			}
+		}
+	]  
+}

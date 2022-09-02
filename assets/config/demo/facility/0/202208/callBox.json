@@ -1,0 +1,33 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5226737212610,
+					25.0525469328069
+				]
+			},
+			"properties": {
+				"type": "callBox",
+				"description": "電話亭"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5227209196990,
+					25.0533239558356
+				]
+			},
+			"properties": {
+				"type": "callBox",
+				"description": "電話亭"
+			}
+		}
+	]  
+}

@@ -1,0 +1,33 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5228377538740,
+					25.0558075755701
+				]
+			},
+			"properties": {
+				"type": "ubike",
+				"description": "YouBike"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5229067055294,
+					25.05611710020692
+				]
+			},
+			"properties": {
+				"type": "ubike",
+				"description": "YouBike"
+			}
+		}
+	]  
+}

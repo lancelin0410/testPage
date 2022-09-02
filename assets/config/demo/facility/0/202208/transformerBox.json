@@ -1,0 +1,33 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5226800903890,
+					25.0526125368166
+				]
+			},
+			"properties": {
+				"type": "transformerBox",
+				"description": "變電箱"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.5226958506170,
+					25.0529178655236
+				]
+			},
+			"properties": {
+				"type": "transformerBox",
+				"description": "變電箱"
+			}
+		}
+	]  
+}
