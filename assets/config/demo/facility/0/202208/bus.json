@@ -1,0 +1,55 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.52282210590676,
+					25.05417863670766
+				]
+			},
+			"properties": {
+				"name": "公車站",
+				"description": {
+					"itemType": "bus",
+					"title": "晶華酒店-公車亭",
+					"geom": {
+						"lat": 25.05417863670766,
+						"lng": 121.52282210590676
+					},
+					"address": "中山北路二段41號",
+					"itemData": {
+						"node": "晶華酒店"
+					}
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.52292637448333,
+					25.056163608706274
+				]
+			},
+			"properties": {
+				"name": "公車站",
+				"description": {
+					"itemType": "bus",
+					"title": "第一金證券股份有限公司-公車亭",
+					"geom": {
+						"lat": 25.056163608706274,
+						"lng": 121.52292637448333
+					},
+					"address": "中山北路二段61號4樓",
+					"itemData": {
+						"node": "第一金證券股份有限公司"
+					}
+				}
+			}
+		}
+	]  
+}

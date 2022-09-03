@@ -1,0 +1,55 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.52275477602127,
+					25.05250620586517
+				]
+			},
+			"properties": {
+				"name": "電話亭",
+				"description": {
+					"itemType": "publicPhone",
+					"title": "臺北市政府警察局中山分局-電話亭",
+					"geom": {
+						"lat": 25.05250620586517,
+						"lng": 121.52275477602127
+					},
+					"address": "中山北路二段1號",
+					"itemData": {
+						"node": "臺北市政府警察局中山分局"
+					}
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.52276957875641,
+					25.053482265854345
+				]
+			},
+			"properties": {
+				"name": "電話亭",
+				"description": {
+					"itemType": "publicPhone",
+					"title": "CHANG 養 CHEN-電話亭",
+					"geom": {
+						"lat": 25.053482265854345,
+						"lng": 121.52276957875641
+					},
+					"address": "中山北路二段1號",
+					"itemData": {
+						"node": "CHANG 養 CHEN"
+					}
+				}
+			}
+		}
+	]  
+}

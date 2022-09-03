@@ -114,23 +114,36 @@
 			"color": "#7871AA",
 			"options": {
 				"facilityType": {
-					"busStop": {
+					"bus": {
 						"name": "公車站"
 					},
 					"ubike": {
 						"name": "YouBike"
 					},
-					"wheelChair": {
+					"ramp": {
 						"name": "無障礙鈄坡道"
 					},
-					"callBox": {
+					"publicPhone": {
 						"name": "電話亭"
 					},
-					"transformerBox": {
+					"tBox": {
 						"name": "變電箱"
 					}
 				},
-				"geoJSONUrl": "https://storage.googleapis.com/map_config/demo/facility/${dist}/${dateStr}/${type}.json"
+				"geoJSONUrl": "https://storage.googleapis.com/map_config/demo/facility/${dist}/${dateStr}/${type}.json",
+				"facilityInfo": {
+					"headers": {
+						"title": {
+							"text": "標題"
+						},
+						"address": {
+							"text": "地址"
+						},
+						"geom": {
+							"text": "座標"
+						}
+					}
+				}
 			}
 		},
 		"sidewalk": {

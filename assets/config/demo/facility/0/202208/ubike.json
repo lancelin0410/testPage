@@ -6,13 +6,25 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.5228377538740,
-					25.0558075755701
+					121.5229067055294,
+					25.05611710020692
 				]
 			},
 			"properties": {
-				"type": "ubike",
-				"description": "YouBike"
+				"name": "YouBike",
+				"description": {
+					"itemType": "ubike",
+					"title": "YouBike微笑單車 2.0",
+					"geom": {
+						"lat": 25.05611710020692,
+						"lng": 121.5229067055294
+					},
+					"address": "中山北路二段59巷口",
+					"itemData": {
+						"version": "2.0",
+						"bikes": 12
+					}
+				}
 			}
 		},
 		{
@@ -20,13 +32,26 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.5229067055294,
-					25.05611710020692
+					121.5230773627370,
+					25.0607172919144
 				]
 			},
 			"properties": {
-				"type": "ubike",
-				"description": "YouBike"
+				"name": "YouBike",
+				"description": {
+					"itemType": "ubike",
+					"title": "YouBike微笑單車 2.0: 台泥大樓",
+					"geom": {
+						"lat": 25.061419760364526,
+						"lng": 121.52305860100682
+					},
+					"address": "中山北路二段113-133號前",
+					"itemData": {
+						"version": "2.0",
+						"node": "台泥大樓",
+						"bikes": 18
+					}
+				}
 			}
 		}
 	]  

@@ -1,0 +1,56 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.52272258941998,
+					25.0523276094967
+				]
+			},
+			"properties": {
+				"name": "無障礙斜坡道",
+				"description": {
+					"itemType" : "ramp",
+					"title": "臺北市政府警察局中山分局-無障礙鈄坡道",
+					"geom": { 
+						"lat": 25.0523276094967, 
+						"lng": 121.52272258941998 
+					},
+					"address": "中山北路二段1號",
+					"itemData": {
+						"node": "臺北市政府警察局中山分局"
+					}
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.52275110314532,
+					25.05283873344713
+				]
+			},
+			"properties": {
+				"name": "無障礙斜坡道",
+				"description": "無障礙斜坡道",
+				"description": {
+					"itemType": "ramp",
+					"title": "兆豐國際商業銀行-無障礙鈄坡道",
+					"geom": {
+						"lat": 25.05283873344713,
+						"lng": 121.52275110314532
+					},
+					"address": "中山區台1甲線15號",
+					"itemData": {
+						"node": "兆豐國際商業銀行"
+					}
+				}
+			}
+		}
+	]  
+}
