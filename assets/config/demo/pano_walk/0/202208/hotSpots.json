@@ -5,13 +5,15 @@
 				"type": "info",
 				"pitch": -5,
 				"yaw": 172.368,
-				"text": "電話亭"
+				"text": "電話亭",
+				"cssClass": "hotSpotIcon publicPhone"
 			},
 			{
 				"type": "info",
 				"pitch": -1.410,
 				"yaw": 178.608,
-				"text": "變電箱"
+				"text": "變電箱",
+				"cssClass": "hotSpotIcon tBox"
 			}
 		],
 		"3375": [
@@ -19,13 +21,15 @@
 				"type": "info",
 				"pitch": -14.970,
 				"yaw": 153.959,
-				"text": "電話亭"
+				"text": "電話亭",
+				"cssClass": "hotSpotIcon publicPhone"
 			},
 			{
 				"type": "info",
 				"pitch": -5.458,
 				"yaw": 176.967,
-				"text": "變電箱"
+				"text": "變電箱",
+				"cssClass": "hotSpotIcon tBox"
 			}
 		]
 	}

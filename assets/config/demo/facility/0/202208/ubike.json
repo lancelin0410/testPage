@@ -2,57 +2,144 @@
 	"type": "FeatureCollection",
 	"features": [
 		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					121.5229067055294,
-					25.05611710020692
-				]
-			},
-			"properties": {
-				"name": "YouBike",
-				"description": {
-					"itemType": "ubike",
-					"title": "YouBike微笑單車 2.0",
-					"geom": {
-						"lat": 25.05611710020692,
-						"lng": 121.5229067055294
-					},
-					"address": "中山北路二段59巷口",
-					"itemData": {
-						"version": "2.0",
-						"bikes": 12
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.5229067055294,
+						 25.05611710020692
+					]
+			 },
+			 "properties":{
+					"name":"YouBike",
+					"description":{
+						 "itemType":"ubike",
+						 "title":"YouBike(中山北路二段59巷口)",
+						 "geom":{
+								"lat":25.05611710020692,
+								"lng":121.5229067055294
+						 },
+						 "address":"中山北路二段59巷口",
+						 "itemData":{
+								"node":"YouBike微笑單車 2.0: ",
+								"version":"2.0",
+								"bikes":12
+						 },
+						 "image": "https://storage.googleapis.com/demo-freeway20200701/facilityImg_test/ubike_1.jpg"
 					}
-				}
-			}
+			 }
 		},
 		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					121.5230773627370,
-					25.0607172919144
-				]
-			},
-			"properties": {
-				"name": "YouBike",
-				"description": {
-					"itemType": "ubike",
-					"title": "YouBike微笑單車 2.0: 台泥大樓",
-					"geom": {
-						"lat": 25.061419760364526,
-						"lng": 121.52305860100682
-					},
-					"address": "中山北路二段113-133號前",
-					"itemData": {
-						"version": "2.0",
-						"node": "台泥大樓",
-						"bikes": 18
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52305860100682,
+						 25.061419760364526
+					]
+			 },
+			 "properties":{
+					"name":"YouBike",
+					"description":{
+						 "itemType":"ubike",
+						 "title":"YouBike(中山北路二段113-133號前)",
+						 "geom":{
+								"lat":25.061419760364526,
+								"lng":121.52305860100682
+						 },
+						 "address":"中山北路二段113-133號前",
+						 "itemData":{
+								"node":"YouBike微笑單車 2.0: 台泥大樓",
+								"version":"2.0",
+								"bikes":18
+						 },
+						 "image":""
 					}
-				}
-			}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.5230317633055,
+						 25.061634324867114
+					]
+			 },
+			 "properties":{
+					"name":"YouBike",
+					"description":{
+						 "itemType":"ubike",
+						 "title":"YouBike(中山北路二段133號前)",
+						 "geom":{
+								"lat":25.061634324867114,
+								"lng":121.5230317633055
+						 },
+						 "address":"中山北路二段133號前",
+						 "itemData":{
+								"node":"YouBike微笑單車 2.0: 台泥大樓",
+								"version":"2.0",
+								"bikes":9
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52305860100682,
+						 25.061419760364526
+					]
+			 },
+			 "properties":{
+					"name":"YouBike",
+					"description":{
+						 "itemType":"ubike",
+						 "title":"YouBike(中山北路二段133號前)",
+						 "geom":{
+								"lat":25.061419760364526,
+								"lng":121.52305860100682
+						 },
+						 "address":"中山北路二段133號前",
+						 "itemData":{
+								"node":"YouBike微笑單車 2.0: 台泥大樓",
+								"version":"2.0",
+								"bikes":4
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52264649263083,
+						 25.06183388237257
+					]
+			 },
+			 "properties":{
+					"name":"YouBike",
+					"description":{
+						 "itemType":"ubike",
+						 "title":"YouBike(中山北路二段128巷口)",
+						 "geom":{
+								"lat":25.06183388237257,
+								"lng":121.52264649263083
+						 },
+						 "address":"中山北路二段128巷口",
+						 "itemData":{
+								"node":"YouBike微笑單車 2.0: 中山公民會館",
+								"version":"2.0",
+								"bikes":20
+						 },
+						 "image":""
+					}
+			 }
 		}
-	]  
+ ]  
 }
