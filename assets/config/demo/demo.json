@@ -157,12 +157,44 @@
 			}
 		},
 		"sidewalk": {
-			"type": "default",
-			"assetsUrl": "",
+			"type": "sidewalk",
+			"assetsUrl": "https://storage.googleapis.com/map_kml/demo",
 			"name": "人行道",
 			"description": "人行道",
 			"icon": "mdi-walk",
-			"color": "#4E5283"
+			"color": "#4E5283",
+			"options": {
+				"sidewalkType": [ "block", "case" ],
+				"geoJSONUrl": "https://storage.googleapis.com/map_config/demo/sidewalk/${dist}/${dateStr}/sidewalk.json",
+				"sidewalkInfo": {
+					"headers": {
+						"district": {
+							"text": "區域"
+						},
+						"roadName": {
+							"text": "道路名稱"
+						},
+						"roadStart": {
+							"text": "道路起點"
+						},
+						"roadEnd": {
+							"text": "道路迄點"
+						},
+						"roadDirection": {
+							"text": "道路方向(南北)"
+						},
+						"sidewalkLength": {
+							"text": "人行道長度"
+						},
+						"sidewalkWidth": {
+							"text": "人行道淨寬"
+						},
+						"rampNum": {
+							"text": "路緣斜坡數量"
+						}
+					}
+				}
+			}
 		},
 		"holeCover": {
 			"type": "default",
