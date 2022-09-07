@@ -14,7 +14,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10491台北市中山區中山北路二段1號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.05250620586517,
 								"lng":121.52275477602127
@@ -40,7 +40,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(104台北市中山區中山北路二段37號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.053482265854345,
 								"lng":121.52276957875641
@@ -58,18 +58,18 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52288522732242,
-						 25.0550104263224
+						 121.52290651409137,
+						 25.055454374225395
 					]
 			 },
 			 "properties":{
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(104台北市中山區中山北路二段57號)",
+						 "title":"電話亭",
 						 "geom":{
-								"lat":25.0550104263224,
-								"lng":121.52288522732242
+								"lat":25.055454374225395,
+								"lng":121.52290651409137
 						 },
 						 "address":"104台北市中山區中山北路二段57號",
 						 "itemData":{
@@ -92,7 +92,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10412台北市中山北路二段57-1號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.05566462551282,
 								"lng":121.5228983824858
@@ -100,6 +100,32 @@
 						 "address":"10412台北市中山北路二段57-1號",
 						 "itemData":{
 								"node":"台北中山意舍酒店-電話亭"
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.5229360055457,
+						 25.056245723807894
+					]
+			 },
+			 "properties":{
+					"name":"電話亭",
+					"description":{
+						 "itemType":"publicPhone",
+						 "title":"電話亭",
+						 "geom":{
+								"lat":25.056245723807894,
+								"lng":121.5229360055457
+						 },
+						 "address":"10491台北市中山區中山北路二段61號4樓",
+						 "itemData":{
+								"node":"第一金證券股份有限公司-電話亭"
 						 },
 						 "image":""
 					}
@@ -118,7 +144,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10491台北市中山區中山北路二段69-1號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.057264835729,
 								"lng":121.52297564711562
@@ -144,7 +170,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(104台北市中山區中山北路二段81號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.05825238899848,
 								"lng":121.5230082471781
@@ -152,6 +178,58 @@
 						 "address":"104台北市中山區中山北路二段81號",
 						 "itemData":{
 								"node":"LAC(中山店)-電話亭"
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52307107114436,
+						 25.05909422045951
+					]
+			 },
+			 "properties":{
+					"name":"電話亭",
+					"description":{
+						 "itemType":"publicPhone",
+						 "title":"電話亭",
+						 "geom":{
+								"lat":25.05909422045951,
+								"lng":121.52307107114436
+						 },
+						 "address":"104台北市中山區中山北路二段81-4號2樓",
+						 "itemData":{
+								"node":"青樺視覺攝影公司-電話亭"
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52314132456662,
+						 25.060193244575895
+					]
+			 },
+			 "properties":{
+					"name":"電話亭",
+					"description":{
+						 "itemType":"publicPhone",
+						 "title":"電話亭",
+						 "geom":{
+								"lat":25.060193244575895,
+								"lng":121.52314132456662
+						 },
+						 "address":"10491台北市中山區中山北路二段109號",
+						 "itemData":{
+								"node":"ViVi PARK中山北路二段停車場-電話亭"
 						 },
 						 "image":""
 					}
@@ -170,7 +248,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10491台北市中山區中山北路二段117號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.06109730789022,
 								"lng":121.52309201008161
@@ -196,7 +274,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(104台北市中山區中山北路二段155號2樓)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.062133213638194,
 								"lng":121.52294800796805
@@ -214,18 +292,44 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.5223543253207,
-						 25.063293832939195
+						 121.52274676340991,
+						 25.052504255514464
 					]
 			 },
 			 "properties":{
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(台北市中山區中山北路二段162號)",
+						 "title":"電話亭",
 						 "geom":{
-								"lat":25.063293832939195,
-								"lng":121.5223543253207
+								"lat":25.052504255514464,
+								"lng":121.52274676340991
+						 },
+						 "address":"104台北市中山區中山北路二段183號",
+						 "itemData":{
+								"node":"電話亭"
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52232253143885,
+						 25.06329244098282
+					]
+			 },
+			 "properties":{
+					"name":"電話亭",
+					"description":{
+						 "itemType":"publicPhone",
+						 "title":"電話亭",
+						 "geom":{
+								"lat":25.06329244098282,
+								"lng":121.52232253143885
 						 },
 						 "address":"台北市中山區中山北路二段162號",
 						 "itemData":{
@@ -248,7 +352,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10491台北市中山區中山北路二段136號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.062147720987635,
 								"lng":121.52262363149757
@@ -274,7 +378,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10491台北市中山區中山北路二段)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.05799703619574,
 								"lng":121.52273931764557
@@ -292,20 +396,20 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52271134958153,
-						 25.057172665148695
+						 121.52267924242508,
+						 25.057174412187027
 					]
 			 },
 			 "properties":{
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10491台北市中山區中山北路二段78-1號)",
+						 "title":"電話亭",
 						 "geom":{
-								"lat":25.057172665148695,
-								"lng":121.52271134958153
+								"lat":25.057174412187027,
+								"lng":121.52267924242508
 						 },
-						 "address":"10491台北市中山區中山北路二段78-1號",
+						 "address":"10491台北市中山區中山北路二段76號",
 						 "itemData":{
 								"node":"電話亭"
 						 },
@@ -318,18 +422,18 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52262968206342,
-						 25.055758652321654
+						 121.52260510811773,
+						 25.055734707046486
 					]
 			 },
 			 "properties":{
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10491台北市中山區中山北路二段48巷46號)",
+						 "title":"電話亭",
 						 "geom":{
-								"lat":25.055758652321654,
-								"lng":121.52262968206342
+								"lat":25.055734707046486,
+								"lng":121.52260510811773
 						 },
 						 "address":"10491台北市中山區中山北路二段48巷46號",
 						 "itemData":{
@@ -352,12 +456,12 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10445台北市中山區中山北路二段40號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.054445820372873,
 								"lng":121.52254971659586
 						 },
-						 "address":"10445台北市中山區中山北路二段40號",
+						 "address":"10445台北市中山區中山北路二段38號",
 						 "itemData":{
 								"node":"電話亭"
 						 },
@@ -378,7 +482,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(104台北市中山區中山北路二段22號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.053689887084918,
 								"lng":121.52248564709332
@@ -404,7 +508,7 @@
 					"name":"電話亭",
 					"description":{
 						 "itemType":"publicPhone",
-						 "title":"電話亭(10445台北市中山區中山北路二段8號)",
+						 "title":"電話亭",
 						 "geom":{
 								"lat":25.052841038270632,
 								"lng":121.52246642308229

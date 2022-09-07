@@ -165,9 +165,12 @@
 			"color": "#4E5283",
 			"options": {
 				"sidewalkType": [ "block", "case" ],
-				"geoJSONUrl": "https://storage.googleapis.com/map_config/demo/sidewalk/${dist}/${dateStr}/sidewalk.json",
+				"geoJSONUrl": "https://storage.googleapis.com/map_config/demo/sidewalk/${dist}/${dateStr}/sidewalk_${type}.json",
 				"sidewalkInfo": {
 					"headers": {
+						"ogc_fid": {
+							"text": "區塊編號"
+						},
 						"district": {
 							"text": "區域"
 						},
@@ -181,7 +184,7 @@
 							"text": "道路迄點"
 						},
 						"roadDirection": {
-							"text": "道路方向(南北)"
+							"text": "道路方向"
 						},
 						"sidewalkLength": {
 							"text": "人行道長度"

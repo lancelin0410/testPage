@@ -6,18 +6,18 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.5229067055294,
-						 25.05611710020692
+						121.52314158116347,
+						25.060669838557686
 					]
 			 },
 			 "properties":{
 					"name":"YouBike",
 					"description":{
 						 "itemType":"ubike",
-						 "title":"YouBike(中山北路二段59巷口)",
+						 "title":"YouBike",
 						 "geom":{
-								"lat":25.05611710020692,
-								"lng":121.5229067055294
+								"lat":25.060669838557686,
+								"lng":121.52314158116347
 						 },
 						 "address":"中山北路二段59巷口",
 						 "itemData":{
@@ -42,7 +42,7 @@
 					"name":"YouBike",
 					"description":{
 						 "itemType":"ubike",
-						 "title":"YouBike(中山北路二段113-133號前)",
+						 "title":"YouBike",
 						 "geom":{
 								"lat":25.061419760364526,
 								"lng":121.52305860100682
@@ -70,7 +70,7 @@
 					"name":"YouBike",
 					"description":{
 						 "itemType":"ubike",
-						 "title":"YouBike(中山北路二段133號前)",
+						 "title":"YouBike",
 						 "geom":{
 								"lat":25.061634324867114,
 								"lng":121.5230317633055
@@ -98,7 +98,7 @@
 					"name":"YouBike",
 					"description":{
 						 "itemType":"ubike",
-						 "title":"YouBike(中山北路二段133號前)",
+						 "title":"YouBike",
 						 "geom":{
 								"lat":25.061419760364526,
 								"lng":121.52305860100682
@@ -126,7 +126,7 @@
 					"name":"YouBike",
 					"description":{
 						 "itemType":"ubike",
-						 "title":"YouBike(中山北路二段128巷口)",
+						 "title":"YouBike",
 						 "geom":{
 								"lat":25.06183388237257,
 								"lng":121.52264649263083

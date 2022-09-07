@@ -14,7 +14,7 @@
 					"name":"公車站",
 					"description":{
 						 "itemType":"bus",
-						 "title":"公車站(10491台北市中山區中山北路二段41號)",
+						 "title":"公車站",
 						 "geom":{
 								"lat":25.05417863670766,
 								"lng":121.52282210590676
@@ -23,7 +23,7 @@
 						 "itemData":{
 								"node":"晶華酒店-公車站"
 						 },
-						 "image":"https://storage.googleapis.com/demo-freeway20200701/facilityImg_test/bus_1.jpg"
+						 "image": "https://storage.googleapis.com/demo-freeway20200701/facilityImg_test/bus_1.jpg"
 					}
 			 }
 		},
@@ -40,36 +40,10 @@
 					"name":"公車站",
 					"description":{
 						 "itemType":"bus",
-						 "title":"公車站(10491台北市中山區中山北路二段61號4樓)",
+						 "title":"公車站",
 						 "geom":{
 								"lat":25.056163608706274,
 								"lng":121.52292637448333
-						 },
-						 "address":"10491台北市中山區中山北路二段61號4樓",
-						 "itemData":{
-								"node":"第一金證券股份有限公司-公車站"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
-						 121.5229160747225,
-						 25.05625887584515
-					]
-			 },
-			 "properties":{
-					"name":"公車站",
-					"description":{
-						 "itemType":"bus",
-						 "title":"公車站(10491台北市中山區中山北路二段61號4樓)",
-						 "geom":{
-								"lat":25.05625887584515,
-								"lng":121.5229160747225
 						 },
 						 "address":"10491台北市中山區中山北路二段61號4樓",
 						 "itemData":{
@@ -92,14 +66,14 @@
 					"name":"公車站",
 					"description":{
 						 "itemType":"bus",
-						 "title":"公車站(104台北市中山區中山北路二段133號)",
+						 "title":"公車站",
 						 "geom":{
 								"lat":25.061502874823223,
 								"lng":121.52305087853514
 						 },
 						 "address":"104台北市中山區中山北路二段133號",
 						 "itemData":{
-								"node":"台泥大樓(馬偕醫院)-公車站"
+								"node":"台泥大樓-公車站"
 						 },
 						 "image":""
 					}
@@ -118,7 +92,7 @@
 					"name":"公車站",
 					"description":{
 						 "itemType":"bus",
-						 "title":"公車站(10491台北市中山區中山北路二段158號)",
+						 "title":"公車站",
 						 "geom":{
 								"lat":25.062899065245958,
 								"lng":121.52244130503769
@@ -144,7 +118,7 @@
 					"name":"公車站",
 					"description":{
 						 "itemType":"bus",
-						 "title":"公車站(10491台北市中山區中山北路二段116號)",
+						 "title":"公車站",
 						 "geom":{
 								"lat":25.060645730072842,
 								"lng":121.52279906290885
@@ -170,7 +144,7 @@
 					"name":"公車站",
 					"description":{
 						 "itemType":"bus",
-						 "title":"公車站(10491台北市中山區中山北路二段56號)",
+						 "title":"公車站",
 						 "geom":{
 								"lat":25.056563821337935,
 								"lng":121.52267032930231
@@ -196,7 +170,7 @@
 					"name":"公車站",
 					"description":{
 						 "itemType":"bus",
-						 "title":"公車站(104台北市中山區中山北路二段6號)",
+						 "title":"公車站",
 						 "geom":{
 								"lat":25.05284650545645,
 								"lng":121.52245971756003
