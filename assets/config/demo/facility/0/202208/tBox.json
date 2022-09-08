@@ -58,7 +58,7 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						121.52285440692616,
+						 121.52285440692616,
 						 25.054417323013727
 					]
 			 },
@@ -214,8 +214,8 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52267924242508,
-						 25.057174412187027
+						 121.52244682231162,
+						 25.06364241353205
 					]
 			 },
 			 "properties":{
@@ -224,8 +224,60 @@
 						 "itemType":"tBox",
 						 "title":"變電箱",
 						 "geom":{
-								"lat":25.057174412187027,
-								"lng":121.52267924242508
+								"lat":25.06364241353205,
+								"lng":121.52244682231162
+						 },
+						 "address":"104台北市中山區中山北路二段183號",
+						 "itemData":{
+								"node":"國泰世華銀行 中山分行-變電箱"
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52238484922613,
+						 25.06303319592319
+					]
+			 },
+			 "properties":{
+					"name":"變電箱",
+					"description":{
+						 "itemType":"tBox",
+						 "title":"變電箱",
+						 "geom":{
+								"lat":25.06303319592319,
+								"lng":121.52238484922613
+						 },
+						 "address":"10491台北市中山區中山北路二段162號",
+						 "itemData":{
+								"node":"變電箱"
+						 },
+						 "image":""
+					}
+			 }
+		},
+		{
+			 "type":"Feature",
+			 "geometry":{
+					"type":"Point",
+					"coordinates":[
+						 121.52268326573837,
+						 25.057242445854435
+					]
+			 },
+			 "properties":{
+					"name":"變電箱",
+					"description":{
+						 "itemType":"tBox",
+						 "title":"變電箱",
+						 "geom":{
+								"lat":25.057242445854435,
+								"lng":121.52268326573837
 						 },
 						 "address":"10491台北市中山區中山北路二段78號",
 						 "itemData":{
@@ -292,32 +344,6 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52249747721777,
-						 25.05400857995172
-					]
-			 },
-			 "properties":{
-					"name":"變電箱",
-					"description":{
-						 "itemType":"tBox",
-						 "title":"變電箱",
-						 "geom":{
-								"lat":25.05400857995172,
-								"lng":121.52249747721777
-						 },
-						 "address":"10445台北市中山區中山北路二段28號",
-						 "itemData":{
-								"node":"變電箱"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
 						 121.52247738860841,
 						 25.053283726997755
 					]
@@ -340,30 +366,56 @@
 			 }
 		},
 		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
-						 121.52245675215792,
-						 25.053012295428797
-					]
-			 },
-			 "properties":{
-					"name":"變電箱",
-					"description":{
-						 "itemType":"tBox",
-						 "title":"變電箱",
-						 "geom":{
-								"lat":25.053012295428797,
-								"lng":121.52245675215792
-						 },
-						 "address":"10450台北市中山區中山北路二段14號",
-						 "itemData":{
-								"node":"變電箱"
-						 },
-						 "image":""
-					}
+			"type":"Feature",
+			"geometry":{
+				 "type":"Point",
+				 "coordinates":[
+						121.52245675215792,
+						25.053012295428797
+				 ]
+			},
+			"properties":{
+				 "name":"變電箱",
+				 "description":{
+						"itemType":"tBox",
+						"title":"變電箱",
+						"geom":{
+							 "lat":25.053012295428797,
+							 "lng":121.52245675215792
+						},
+						"address":"10450台北市中山區中山北路二段14號",
+						"itemData":{
+							 "node":"變電箱"
+						},
+						"image":""
+				 }
+			}
+	 },
+	 {
+		"type":"Feature",
+		"geometry":{
+			 "type":"Point",
+			 "coordinates":[
+				121.52249747721777,
+					25.05400857995172
+			 ]
+		},
+		"properties":{
+			 "name":"變電箱",
+			 "description":{
+					"itemType":"tBox",
+					"title":"變電箱",
+					"geom":{
+						 "lat":25.05400857995172,
+						 "lng":121.52249747721777
+					},
+					"address":"10450台北市中山區中山北路二段28號",
+					"itemData":{
+						 "node":"變電箱"
+					},
+					"image":""
 			 }
 		}
+ }
  ]  
 }

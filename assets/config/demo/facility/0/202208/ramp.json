@@ -58,32 +58,6 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52244682231162,
-						 25.06364241353205
-					]
-			 },
-			 "properties":{
-					"name":"無障礙斜坡道",
-					"description":{
-						 "itemType":"ramp",
-						 "title":"無障礙斜坡道",
-						 "geom":{
-								"lat":25.06364241353205,
-								"lng":121.52244682231162
-						 },
-						 "address":"104台北市中山區中山北路二段183號",
-						 "itemData":{
-								"node":"國泰世華銀行 中山分行-無障礙鈄坡道-變電箱"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
 						 121.52276180226535,
 						 25.052764877737456
 					]
@@ -1774,32 +1748,6 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52276065874844,
-						 25.0592464043393
-					]
-			 },
-			 "properties":{
-					"name":"無障礙斜坡道",
-					"description":{
-						 "itemType":"ramp",
-						 "title":"無障礙斜坡道",
-						 "geom":{
-								"lat":25.0592464043393,
-								"lng":121.52276065874844
-						 },
-						 "address":"104027台北市中山區中山北路二段93巷30號",
-						 "itemData":{
-								"node":"無障礙鈄坡道"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
 						 121.52275651470563,
 						 25.059070942118396
 					]
@@ -1826,32 +1774,6 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52275852636232,
-						 25.059039355534548
-					]
-			 },
-			 "properties":{
-					"name":"無障礙斜坡道",
-					"description":{
-						 "itemType":"ramp",
-						 "title":"無障礙斜坡道",
-						 "geom":{
-								"lat":25.059039355534548,
-								"lng":121.52275852636232
-						 },
-						 "address":"104027台北市中山區中山北路二段93巷30號",
-						 "itemData":{
-								"node":"無障礙鈄坡道"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
 						 121.52275124361675,
 						 25.058147165985
 					]
@@ -1864,32 +1786,6 @@
 						 "geom":{
 								"lat":25.058147165985,
 								"lng":121.52275124361675
-						 },
-						 "address":"104027台北市中山區中山北路二段93巷30號",
-						 "itemData":{
-								"node":"無障礙鈄坡道"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
-						 121.52274923196008,
-						 25.058116186602
-					]
-			 },
-			 "properties":{
-					"name":"無障礙斜坡道",
-					"description":{
-						 "itemType":"ramp",
-						 "title":"無障礙斜坡道",
-						 "geom":{
-								"lat":25.058116186602,
-								"lng":121.52274923196008
 						 },
 						 "address":"104027台北市中山區中山北路二段93巷30號",
 						 "itemData":{
@@ -2112,32 +2008,6 @@
 			 "geometry":{
 					"type":"Point",
 					"coordinates":[
-						 121.52267925496716,
-						 25.056669753700245
-					]
-			 },
-			 "properties":{
-					"name":"無障礙斜坡道",
-					"description":{
-						 "itemType":"ramp",
-						 "title":"無障礙斜坡道",
-						 "geom":{
-								"lat":25.056669753700245,
-								"lng":121.52267925496716
-						 },
-						 "address":"10491台北市中山區中山北路二段62號",
-						 "itemData":{
-								"node":"無障礙鈄坡道"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
 						 121.52265202317126,
 						 25.056210024679064
 					]
@@ -2256,32 +2126,6 @@
 								"lng":121.52258508562814
 						 },
 						 "address":"10448台北市中山區中山北路二段46號",
-						 "itemData":{
-								"node":"無障礙鈄坡道"
-						 },
-						 "image":""
-					}
-			 }
-		},
-		{
-			 "type":"Feature",
-			 "geometry":{
-					"type":"Point",
-					"coordinates":[
-						 121.52259977531693,
-						 25.055385977644075
-					]
-			 },
-			 "properties":{
-					"name":"無障礙斜坡道",
-					"description":{
-						 "itemType":"ramp",
-						 "title":"無障礙斜坡道",
-						 "geom":{
-								"lat":25.055385977644075,
-								"lng":121.52259977531693
-						 },
-						 "address":"104台北市中山區中山北路二段44號",
 						 "itemData":{
 								"node":"無障礙鈄坡道"
 						 },
